@@ -26,7 +26,27 @@ Coming soon...
 
 ## Accessing
 
-Let us assume an array with size 4  
+Let us assume an array numbers with size 4  
 Every element in array should be the same size  
 
-If you want to access `nth` element
+If you want to access `nth` element then `nth` element is calculated by simple arithmetic operations as below
+```
+nth_address=array_address+element_size*(n-first_index)
+```
+
+For above array number If I want to access 2nd element  
+**Assume**,   
+array_address = 1000,  
+n=2,  
+first_index=0,  
+element_size=4.
+Then second_element_address=1008.
+
+## Operations
+1. pushFront
+2. pushBack
+3. popBack
+4. popFront
+5. isEmpty
+6. pushBeforeNthElement
+7. pushAfterNthElement
